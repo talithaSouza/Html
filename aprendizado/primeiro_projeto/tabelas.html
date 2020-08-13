@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabelas</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h2>Produtos</h2>
+    <table border="2" width="100%">
+      <tr><!--Linha-->
+        <th>Código</th> <!--Coluna-->
+        <th>Produto</th>
+        <th>Preço</th>
+      </tr>
+
+      <tr>
+        <td>001</td>
+        <td>Notebook</td>
+        <td>R$ 2.500,99</td>
+      </tr>
+
+      <tr>
+        <td>002</td>
+        <td>Tablet</td>
+        <td>R$ 999,99</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Desconto</td> <!--rowspan mescla duas ou mais células na mesma coluna-->
+        <td colspan="2">cupom -R$ 10</td> <!--colsapn: mescla duas ou mais celulas na mesma linha-->
+      </tr>
+
+      <tr>
+        <td colspan="2">cupom2 -R$ 12</td>
+      </tr>
+
+      <tr>
+        <td>Total:</td>
+        <td colspan="2">R$ 3.478,98</td>
+      </tr>
+    </table>
+  </body>
+</html>
