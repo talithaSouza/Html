@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Página principal</title>
+  </head>
+
+  <body>
+    <h2>Login</h2>
+    <form>
+      Login:<br>
+      <input type="text" ><br>
+      Senha: <br>
+      <input type="password" name=""><br><br>
+      <input type="button" value="Logar">
+    </form>
+  
+    <form>
+      <h2>Cadastre-se</h2>
+      Login:<br>
+      <!--Radio é as bolinhas de escola. Atributo value é usado
+        para passar o que o usuário escolher.-->
+      <!--Para que apenas um seja marcado o name tem que ser o mesmo-->
+      <input type="radio" name="sexo" value="M">Masculino <br>
+      <input type="radio" name="sexo" value="F">Feminido <br><br>
+
+      Interesses<br>
+      <!--Gera caixinha de multipla escolha-->
+      <input type="checkbox" name="interesses">Futebol<br>
+      <input type="checkbox" name="interesses">Moda<br>
+      <input type="checkbox" name="interesses">Cursos<br><br>
+
+      Estado<br>
+      <!--Combobox-->
+      <!--name usado para recuperaçao dos dados, value é  valor escolhido pelo usuário-->
+      <select name="estado">
+        <option value="ce">CE</option>
+        <option value="sp">SP</option>
+        <option value="bh">BH</option>
+      </select><br><br>
+
+      Observações: <br>
+      <textarea></textarea><br><br>
+
+      <input type="submit" value="Cadastrar">
+  </form>
+  </body>
+</html>
